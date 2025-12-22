@@ -1,0 +1,21 @@
+diff -urN rtl_433-25.12/Doxyfile.in rtl_433-25.12-doxygen-fixes/Doxyfile.in
+--- rtl_433-25.12/Doxyfile.in	2025-12-12 12:50:42.000000000 +0000
++++ rtl_433-25.12-doxygen-fixes/Doxyfile.in	2025-12-22 23:01:05.479061729 +0000
+@@ -2263,7 +2263,7 @@
+ # The default value is: png.
+ # This tag requires that the tag HAVE_DOT is set to YES.
+ 
+-DOT_IMAGE_FORMAT       = png
++DOT_IMAGE_FORMAT       = svg
+ 
+ # If DOT_IMAGE_FORMAT is set to svg, then this option can be set to YES to
+ # enable generation of interactive SVG images that allow zooming and panning.
+@@ -2275,7 +2275,7 @@
+ # The default value is: NO.
+ # This tag requires that the tag HAVE_DOT is set to YES.
+ 
+-INTERACTIVE_SVG        = NO
++INTERACTIVE_SVG        = YES
+ 
+ # The DOT_PATH tag can be used to specify the path where the dot tool can be
+ # found. If left blank, it is assumed the dot tool can be found in the path.
