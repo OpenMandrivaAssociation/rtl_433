@@ -8,7 +8,7 @@
 
 Name:		rtl_433
 Version:	25.12
-Release:	1
+Release:	2
 Summary:	Program to decode radio transmissions from devices on the ISM bands (and other frequencies)
 URL:		https://github.com/merbanan/rtl_433
 License:	GPL-2.0-only
